@@ -133,7 +133,7 @@ class TDSTransactionTracker:
 
         volume_moving = size_to_liq
         if side.lower() == 'buy':
-            volume_moving = size_to_liq / product_info.high
+            volume_moving = size_to_liq / product_info.close
         
         if available_volume < volume_moving:
             # ensure enough market volume to execute trade
