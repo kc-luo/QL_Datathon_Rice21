@@ -7,4 +7,4 @@ Repo for Rice 2021 Datathon QuantLab Challenge
    ######  Trade: 
         Based on the predicted data, our program calculates the probability of profiting from the next tick and choose the most feasible investment plan.
    ######  Arbitrage: 
-        Based on the current tick data, our program exanges our holdsing from one cureency to another multiple times if the exchange ratio between multiple currency can bring us profits.
+        Based on the current tick data, our program exanges our holdsing from one cureency to another multiple times if the exchange ratio between multiple currency can bring us profits. The difference in exchange rates between currencies can be an opportunity for us to leverage. We involved two other cryptocurrencies and Euro in the arbitrage. By computing the ratio between the current prices, we determine if the expected revenue would exceed the costs such as taker fee.
